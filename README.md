@@ -11,5 +11,7 @@ no repositório do GitHub que contém o código.
 #comandos para executar no repositório:
 
 node app.js// para rodar a aplicação de forma local na porta:3000
+
 npm test// para executar os testes de unidade com o Mocha
+
 npm run postman-test// executar os testes de API conforme estão no Postman
