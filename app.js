@@ -18,8 +18,9 @@ app.post('/api/somar', (req, res) => {
   const resultado = num1 + num2;
   res.json({ resultado });
 });
-
 const port = 3000;
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
+module.exports = app; // Exporta o app para que seja possível importá-lo em outros arquivos
